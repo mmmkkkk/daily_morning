@@ -1,13 +1,13 @@
 name: morning-girl
 on:
   schedule:
-  - cron:  '0 0 * * *'
+  - cron:  '10 1 * * *'
   workflow_dispatch:
 
 jobs:
-  send_message:
+  send_message_girl:
     runs-on: ubuntu-latest
-    name: send morning to your girlfriend
+    name: send morning to girlfriend
 
     steps:
     - name: checkout
